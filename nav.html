@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+
+
+
+        body {
+
+            font-family: "Sansation", sans-serif;
+            font-optical-sizing: auto;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            /* background: #f3eded; */
+            border-bottom: 1px solid #131212
+        }
+
+        .content {
+            /* background: #00ff00; */
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 70px;
+            height: 70px;
+        }
+
+
+        .content ul {
+            display: flex;
+            list-style-type: none;
+
+        }
+
+        .content li {
+            margin-left: 16px;
+            margin-right: 16px;
+
+        }
+
+        .content a {
+            text-decoration: none;
+            color: #000000;
+            padding: 14px;
+            text-transform: capitalize;
+        }
+
+        .content a:hover {
+            background: #ffffff;
+            border-bottom: 1px solid #000000;
+            text-decoration: underline;
+        }
+    
+    /* git add . */
+    /* git commit -m "built the navbar" */
+    /* git push */
+    
+   
+   
+   </style>
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="content">
+            <div class="logo">
+                <img src="images/icons8-lorry-100.apng.apng" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Get Help</a></li>
+                <li><a href="#">Team</a></li>
+            </ul>
+
+        </div>
+
+
+
+    </nav>
+
+
+
+</body>
+
+</html>
